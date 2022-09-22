@@ -1,15 +1,42 @@
 body {
-    background-color: rgb(4, 5, 43);
-  }
-  h1 { 
-    color: blue;
-  }
-  p {
-    color: red;
-  }
-  .content-wrapper {
+    background-color: rgb(5, 8, 15);
     display: flex;
     justify-content: center;
     align-items: center;
   }
+  h1 { 
+    color: rgb(247, 247, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    color: rgb(247, 247, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: blue;
+    color: rgb(247, 247, 252);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color:#0344f7;
+    transition: 0.7s;
+  }
+input {
+    padding: 10px 20px;
+    margin: 5px;
+    color: rgb(8, 8, 8);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+.content-wrapper {
   
+  }
