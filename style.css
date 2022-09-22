@@ -10,7 +10,7 @@ h1 {
     justify-content: center;
     align-items: center;
   }
-p {
+h3 {
     color: rgb(247, 247, 252);
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ button:hover {
     background-color:#0344f7;
     transition: 0.7s;
   }
-input {
+select {
     padding: 10px 20px;
     margin: 5px;
     color: rgb(8, 8, 8);
@@ -37,7 +37,11 @@ input {
     outline: none;
     border-radius: 5px;
   }
-.content-wrapper {
-  
+.comparison {
+  text-align: center;
+  padding-top: 50px;
   }
+option {
+  color: black;
+}
   
