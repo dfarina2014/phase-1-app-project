@@ -9,17 +9,18 @@
     <script src="main.js"></script>
 </head>
 
-<body>
+<body onload="getData()">
     <div class="content-wrapper">
         <p style="text-align:center"></p>
-        <h1 id="heading">United States City Comparison Tool</h1>
-        <p>Compare quality of life data between hundreds of cities across the country all in one place!</p>
+        <h1 id="heading">United States Population Comparison Tool By Year</h1>
+        <h3>Compare population by year!</h3>
         
-        <p style="text-align:center">
-            <input  type="text"></input>
-            <input  type="text"></input>
-            <button type="button" onclick="add()">Add</button>
-           
+        <div class="comparison">
+            <select id="Year">
+                <option value="" disabled selected hidden>Year</option>
+            </select>
+            <button type="button" onclick="search()">Search</button>
+        </div>    
     </div>
 </body>
 
